@@ -53,3 +53,115 @@
 .follow-logo{
 font-size:1px;
 }
+.head-banner-continer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.banner-descirption{
+    padding: 10px;
+    background-image: url('./images/Group\ 14.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner-descirption p{
+    padding: 5px;
+
+}
+.banner-descirption h1 span{
+    color: #C250D1;
+    font-weight: bold;
+   font-size: 50px
+}
+.banner-btn{
+    padding: 5px;
+   
+}
+.pramary-btn{
+padding: 10px;
+color: white;
+background-color: #FF42A5;
+border: none;
+border-radius: 10px;
+margin: 5px;
+}
+.pramary-btn2{
+    padding: 10px;
+    color: white;
+    background-color: #4EC5F7;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    }
+.gamer-section{
+    background-color: #FFF9FC;
+}
+
+.gamer-section-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gamer-descroption h2{
+    color: #C250D1;
+    padding: 5px;
+}
+.gamer-descroption p{
+padding: 5px;
+}
+.pramary-btn3{
+    padding: 10px;
+    color: white;
+    background-color:#FF42A5;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 60%;
+    
+    }
+    .gamer-descroption h5{
+        padding: 5px;
+        margin-left: 60%;
+    }
+    .gamer-descroption h4{
+        margin-left: 85px;
+    }
+    .online-games-title {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    }
+    .online-games-title span{
+     color: #4EC5F7;
+    }
+    .online-games-title p{
+       padding: 5px;
+       }
+       .online-games-img-continer{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        gap: 15px;
+        margin: 20px;
+       }
+       .img-card3{
+        position: relative;
+       }
+       
+       .img-card-div{
+       text-align: center;
+       position: absolute;
+       bottom: 200px;
+       right: 100px;
+       left: 100px;
+       background-color: #470bbf;
+        
+
+       }
+       .img-card-div{
+color: #FF42A5;
+       }
+       
