@@ -3,7 +3,7 @@
     padding: 0;
     
 }
-
+ /*---------------Header nav Section Style--------------*/
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -96,6 +96,7 @@ margin: 5px;
     border-radius: 10px;
     margin: 5px;
     }
+    /*---------------Gamer Section Style--------------*/
 .gamer-section{
     background-color: #FFF9FC;
 }
@@ -129,6 +130,7 @@ padding: 5px;
     .gamer-descroption h4{
         margin-left: 85px;
     }
+    /*------------------Online Games Style----------------------*/
     .online-games-title {
     text-align: center;
     margin-top: 20px;
@@ -161,7 +163,124 @@ padding: 5px;
         
 
        }
-       .img-card-div{
+.img-card-div{
 color: #FF42A5;
        }
+/*------------play-games-continer title---------------*/
+.play-games-continer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+ 
+.play-games-title span{
+    color: #FF42A5;
+}   
+.play-games-title h2{
+    padding:2px;
+    
+} 
+.play-games-title p{
+    padding:5px 0px;
+    
+}  
+.play-games-img{
+    position: relative;
+}
+.play-games-img2{
+position: absolute;
+bottom:-100px;
+left: -120px;
+
+}
+.games-section{
+    margin-top: 130px;
+    background-color:#FFF9FC;
+}
+.games{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+.games-section-continer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+.games-section-continer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.games:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: #FF49A5;
+   
+}
+.footer-section{
+    background-color: #0B0223;
+
+}
+
+.footer-logo-title-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 1rem;
+    padding: 50px;
+  
+   
+}
+.footer-logo-title-continer h2 span{
+    color: #FF42A5;
+
+}
+.footer-logo-title-continer h2{
+color: #FFFFFF;
+}
+.footer-title-continer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+}
+.footer-title-continer{
+color: #FFFFFF;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 50px;
+}
+.footer-description-continer p{
+color: #ffffff;
+}
+.footer-description-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.copy-continer small{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+
+   
        
