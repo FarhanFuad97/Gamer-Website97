@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color:#dac2c2;
+    
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.title{
+    color:#000000;
+    font-weight: 800;
+    font-style: bold;
+}
+.title span{
+    color: #FF49A5;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.follow-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.follow-btn:hover{
+    background-color: #E7E6E9;
+} 
+.follow-logo{
+font-size:1px;
+}
