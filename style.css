@@ -211,6 +211,8 @@ left: -120px;
     justify-content: center;
     gap: 15px;
     padding: 20px;
+    margin-top: 20px;
+   
     
     
 }
@@ -288,9 +290,11 @@ color: #ffffff;
 @media screen and (max-width:576px) {
     .navbar,.nav-list,.nav-list ul, .follow-btn,.online-games-img-continer{
         flex-direction: column;
+       
       
        
     }
+
     .head-banner-continer{
         flex-direction: column-reverse;
         
@@ -349,6 +353,20 @@ text-align: center;
     }
 }
 
+/*-------------Responsive tablet Device------------------*/
 
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+    .head-banner-continer,.gamer-section-continer{
+        flex-direction: column-reverse;
+    }
+    .online-games-img-continer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .play-games-continer{
+        flex-direction: column;
+    }
+}
    
        
