@@ -144,13 +144,18 @@ padding: 5px;
        }
        .online-games-img-continer{
         display: flex;
-        justify-content:space-around;
+        justify-content:center;
         align-items: center;
         gap: 15px;
         margin: 20px;
        }
+       .img-card{
+        text-align: center;
+        margin: 20px;
+       }
        .img-card3{
         position: relative;
+        text-align: center;
        }
        
        .img-card-div{
@@ -171,6 +176,8 @@ color: #FF42A5;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 10px;
+    margin-top: 10px;
 
 }
  
@@ -204,23 +211,19 @@ left: -120px;
     justify-content: center;
     gap: 15px;
     padding: 20px;
-    margin-top: 20px;
+    
     
 }
 .games-section-continer{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 10px;
+    gap: 5px;
 
 }
-.games-section-continer2{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 20px;
 
-}
 .games:hover{
     background-color: white;
     border-radius: 10px;
@@ -279,6 +282,71 @@ color: #ffffff;
     justify-content: center;
     align-items: center;
     padding: 8px;
+}
+
+/*-------------Responsive Mobile Device------------------*/
+@media screen and (max-width:576px) {
+    .navbar,.nav-list,.nav-list ul, .follow-btn,.online-games-img-continer{
+        flex-direction: column;
+      
+       
+    }
+    .head-banner-continer{
+        flex-direction: column-reverse;
+        
+        
+    }
+    .pramary-btn3{
+        margin: 10px 100px;
+        padding: 10px;
+    }
+    
+    .play-games-img{
+        margin:10px;
+        
+    }
+    .games-section-continer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 0px;
+    }
+    .footer-title-continer,.footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left:40px;
+       
+        
+    }
+    .footer-description-continer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 0px 40px;
+    margin-left: 40px;
+    }
+    .copy-continer small{
+        margin-top: 15px;
+        text-align: center;
+        padding:0px 100px;
+        margin: 20px;
+    }
+    .gamer-section-continer,.play-games-continer{
+flex-direction: column;
+
+padding: 20px;
+
+
+    }
+    .gamer-descroption{
+padding: 10px;
+text-align: center;
+    }
+    .head-banner-continer img{
+      padding: 80px;
+     
+    }
+    .nav-logo{
+        flex-direction: row;
+    }
 }
 
 
